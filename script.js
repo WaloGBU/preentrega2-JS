@@ -1,3 +1,4 @@
+let saludo = Number(prompt("Bienvenido a Teho Guitar Store. ¿Desea comprar una guitarra? \n 1. Sí \n 2. No"))
 
 
 let guitarras = [
