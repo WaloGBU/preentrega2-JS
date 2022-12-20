@@ -28,24 +28,24 @@ while(opcion != 2){
     let guitarra = prompt("Ingresa el Nro de orden de la guitarra que quieras comprar")
     let precio = 0
 
-    if(guitarra == 1 || guitarra == 2 || guitarra == 3 || guitarra == 4 || guitarra == 5 || guitarra == 6){
+    if(guitarra == "1" || guitarra == "2" || guitarra == "3" || guitarra == "4" || guitarra == "5" || guitarra == "6"){
         switch(guitarra){
-            case 1:
+            case "1":
                 precio = 3000
                 break
-            case 2:
+            case "2":
                 precio = 3600
                 break
-            case 3:
+            case "3":
                 precio = 4500
                 break
-            case 4:
+            case "4":
                 precio = 4000
                 break
-            case 5:
+            case "5":
                 precio = 2500
                 break
-            case 6:
+            case "6":
                 precio = 4200
                 break
             default:
